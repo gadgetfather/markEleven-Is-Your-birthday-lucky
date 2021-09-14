@@ -8,9 +8,11 @@ body{
     min-height: 100vh;
     margin: auto;
     max-width: 600px;
+    background-color: red;
 }
 h1{
     text-align: center;
+    background-color: green;
 }
 
 .container{
@@ -26,6 +28,9 @@ input,label{
 label{
     text-align: center;
     margin: 10px;
+    background-color: blue;
+    font-size: 1.2rem;
+    color: yellow;
 }
 
 input{
@@ -35,5 +40,17 @@ input{
 }
 
 button{
-    align-items: center;
+   margin: auto;
+   border-radius: 0.2rem;
+   padding: 0.5rem;
+}
+.center{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: wheat;
 }
