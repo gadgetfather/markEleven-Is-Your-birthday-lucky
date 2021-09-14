@@ -8,7 +8,7 @@ body{
     min-height: 100vh;
     margin: auto;
     max-width: 600px;
-    background-color: red;
+    background-image: linear-gradient(to left bottom, #2646dc, #4b43dc, #633fdb, #783ada, #8a34d8, #6d56eb, #486ef8, #0082ff, #00a7ff, #00c7ff, #00e3fe, #5ffbf1);
 }
 h1{
     text-align: center;
