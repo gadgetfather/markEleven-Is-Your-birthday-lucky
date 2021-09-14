@@ -4,15 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+.center-of-page{
+    
+        width: 50%;
+        height: 50%;
+        
+        
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        margin: auto;
+    }
+
 body{
     min-height: 100vh;
     margin: auto;
     max-width: 600px;
-    background-image: linear-gradient(to left bottom, #2646dc, #4b43dc, #633fdb, #783ada, #8a34d8, #6d56eb, #486ef8, #0082ff, #00a7ff, #00c7ff, #00e3fe, #5ffbf1);
+    background-color: #1BD35B
 }
 h1{
     text-align: center;
-    background-color: green;
+    color: #3B3F20;
+    font-size: 250%;
+    
 }
 
 .container{
@@ -28,15 +45,16 @@ input,label{
 label{
     text-align: center;
     margin: 10px;
-    background-color: blue;
-    font-size: 1.2rem;
-    color: yellow;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #3B3F20;
 }
 
 input{
     width: 100%;
     padding: 0.3rem;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
 button{
@@ -52,5 +70,7 @@ p{
     text-align: center;
     margin-top: 20px;
     font-size: 2rem;
-    background-color: wheat;
+    font-weight: bolder;
+    color: #3B3F20;
+    
 }

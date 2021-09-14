@@ -20,11 +20,11 @@ function checkBirthDateIsLucky(){
 
 function checkLuck(sum,luckyNumber){
     if(sum%luckyNumber===0){
-        outputBox.textContent="YOUR BIRTHDAY IS LUCKY!"
+        outputBox.textContent="Your birthday is lucky (｡◕‿◕｡)"
 
     }
     else{
-        outputBox.textContent="YOUR BIRTHDAY IS NOT LUCKY"
+        outputBox.textContent="Your birthday is not lucky ಥ﹏ಥ"
 
     }
     
