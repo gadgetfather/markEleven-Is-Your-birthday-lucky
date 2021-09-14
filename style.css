@@ -23,4 +23,17 @@ h1{
 input,label{
     display: block;
 }
+label{
+    text-align: center;
+    margin: 10px;
+}
 
+input{
+    width: 100%;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    align-items: center;
+}

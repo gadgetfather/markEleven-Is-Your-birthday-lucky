@@ -3,9 +3,11 @@ const luckyNumber = document.querySelector("#lucky-number")
 const checkNumber = document.querySelector("#check-number")
 const outputBox = document.querySelector("#output-box")
 
+checkNumber.addEventListener("click",checkBirthDateIsLucky)
 
 function checkBirthDateIsLucky(){
  const dob = dateOfBirth.value
+ console.log(dob)
  const sum = calculateSum(dob)
  if(sum&&dob){
  checkLuck(sum,luckyNumber.value)}
@@ -42,4 +44,3 @@ function calculateSum(dob){
 
 
 
-checkNumber.addEventListener('click',checkBirthDateIsLucky)
